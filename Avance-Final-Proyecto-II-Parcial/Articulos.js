@@ -1,8 +1,8 @@
-var UrlGetArticulos ='http://localhost:80/G6_20/controller/Articulos.php?op=GetArticulos';
-var urlpostArticulos = 'http://localhost:80/G6_20/controller/Articulos.php?op=InsertArticulos';
-var UrlGetUno = 'http://localhost:80/G6_20/controller/Articulos.php?op=GetArticulo';
-var UrlPutArticulo = 'http://localhost:80/G6_20/controller/Articulos.php?op=UpdateArticulos';
-var UrlDeleteArticulo = 'http://localhost:80/G6_20/controller/Articulos.php?op=DeleteArticulos';
+var UrlGetArticulos ='http://localhost:80/MiProyecto/controller/articulos.php?op=GetArticulos';
+var urlpostArticulos = 'http://localhost:80/MiProyecto/controller/articulos.php?op=InsertArticulo';
+var UrlGetUno = 'http://localhost:80/MiProyecto/controller/articulos.php?op=GetUno';
+var UrlPutArticulo = 'http://localhost:80/MiProyecto/controller/articulos.php?op=UpdateArticulos';
+var UrlDeleteArticulo = 'http://localhost:80/MiProyecto/controller/articulos.php?op=DeleteArticulo';
 $(document).ready(function(){
     CargarArticulos();
 });
